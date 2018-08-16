@@ -6,7 +6,7 @@ This is a practice project to help prepare you for the code challenge.
 
 * The ability to create, read, update and delete *Users*
 * The ability to create, read, update and delete *Dragons*
-* The ability to select a "master" (user) for each dragon
+* The ability to select one "master" (user) for a dragon (a user can have any number of dragons)
 
 # Instructions:
 * Fork this repository
