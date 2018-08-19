@@ -1,0 +1,11 @@
+<h1>User#show</h1>
+<label> User Name: </label>
+<p>  <%= @user.user_name %></p>
+<label> Dragons: </label>
+<ul>
+  <% @user.dragons.each do |dragon| %>
+   <li>  <%= link_to dragon.name, dragon %></li>
+  <%end%>
+</ul>
+<h3> Add Dragon </h3>
+<h3><%= link_to "Click Here to Add New Dragon", new_dragon_path(@user) %></h3>

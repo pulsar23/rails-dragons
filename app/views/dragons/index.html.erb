@@ -1,0 +1,7 @@
+<h1>Dragon#index</h1>
+<h3> Dragons: </h3>
+  <% @dragons.all.each do |dragon| %>
+  <div><%= link_to dragon.name, dragon_path(dragon) %></div><br>
+<%end%>
+
+  <h3><%= link_to "Click Here to Add New Dragon", new_dragon_path %></h3>

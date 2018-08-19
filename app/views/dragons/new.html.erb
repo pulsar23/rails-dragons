@@ -1,0 +1,6 @@
+<h1>Dragon#new</h1>
+<%= form_with model: @dragon do |f| %>
+  <%= f.text_field :name, placeholder: "name" %>
+  <%= f.select :user_id, @user_options %>
+  <%= f.submit %>
+<% end %>
